@@ -1,16 +1,14 @@
 
-#importing the csv module for using its api in the code
 import csv
+import numpy as np
+import pandas as pd
 
 
-import re
-import sys
 
-file_name = sys.argv[0]
-fp = open(file_name)
-contents = fp.read()
-
-
+##########################old logic  to be reomoved ###################
+#file_name = sys.argv[1]
+#fp = open(file_name)
+#contents = fp.read()
 
 #f = open('data.csv')
 

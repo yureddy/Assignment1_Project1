@@ -11,3 +11,14 @@ csv -- data seperated by comma , : and tab also some times
 
 once we do import a module , the modile is right away availble
 
+##### python opening and closing the files
+# Open a file: file
+file = open('moby_dick.txt',mode='r')
+# Print it
+print(file.read())
+# Check whether file is closed
+print(file.closed)
+# Close file
+file.close()
+# Check whether file is closed
+print(file.closed)
