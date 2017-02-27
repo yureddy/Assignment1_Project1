@@ -3,16 +3,24 @@
 import csv
 
 
-print ("word1", "word2", "word3")
-f = open('data.csv')
+import re
+import sys
+
+file_name = sys.argv[0]
+fp = open(file_name)
+contents = fp.read()
+
+
+
+#f = open('data.csv')
 
 #f is instance of file being opened
-csv_f = csv.reader(f)
+#csv_f = csv.reader(f)
 
 #  we are trying to loop over every row
 # every row is a list of three elemets, if you see closely
 
-for row in csv_f:
+for row in contents:
     print row[0]
 
 
