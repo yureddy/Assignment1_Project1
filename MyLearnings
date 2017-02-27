@@ -1,0 +1,3 @@
+Git commands
+git log ---  what are my recent commits
+git status  --- tells the recent files changed and ready for commit.
