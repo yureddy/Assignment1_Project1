@@ -1,3 +1,12 @@
 Git commands
 git log ---  what are my recent commits
 git status  --- tells the recent files changed and ready for commit.
+
+
+data files -- json files , xml file , xl file, csv , xls files
+
+pick a tool that is adapted for the file to work with
+
+csv -- data seperated by comma , : and tab also some times
+
+once we do import a module , the modile is right away availble
